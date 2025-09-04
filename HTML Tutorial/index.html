@@ -4,56 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <section>
     <nav>
-    <img src="./assets/FES.svg" alt="">
-    <ul>
+     <img src="./assets/FES.svg" class="Logo" alt="">
+        <ul>
         <li><a href="#about">About</a></li>
          <li><a href="#discord">Discord</a></li>
           <li><a href="#contact">Contact</a></li>
     </ul>
     </nav>
     <header>
+    <div class="row">
     <div>
     <h1>Best place to learn Frontend</h1>
-    <p>Go from being an absolute beginner to pro with a Simplified process</p>
+    <p class="subheader"> Go from being an absolute beginner to pro with a Simplified process</p>
     <button>Starn now</button>
     </div>
     <figure>
     <img src="./assets/laptop.png" alt="Home page image">
     </figure>
+    </div>
+    </header>
     </header>
     </section>
 
 <main>
-<section id="About">
+<section id="about">
     <h2>About</h2>
-    <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum laudantium veritatis eos dolor, voluptate provident fugiat tenetur! Asperiores cupiditate, molestiae minima veritatis officiis eligendi consequuntur in ipsa libero tempore.
+    <div class="row">
+    <div class="section__description">
+    <div class="section__description--wrapper">
+    <p class="section__description--para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum laudantium veritatis eos dolor, voluptate provident fugiat tenetur! Asperiores cupiditate, molestiae minima veritatis officiis eligendi consequuntur in ipsa libero tempore.
     </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum laudantium veritatis eos dolor, voluptate provident fugiat tenetur! Asperiores cupiditate, molestiae minima veritatis officiis eligendi consequuntur in ipsa libero tempore.
+      <p class="section__description--para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum laudantium veritatis eos dolor, voluptate provident fugiat tenetur! Asperiores cupiditate, molestiae minima veritatis officiis eligendi consequuntur in ipsa libero tempore.
     </p>
     </div>
-    <figure> 
+    <figure class="about__img--wrapper"> 
         <img src="./assets/about.jpg" alt="">
     </figure>
+    </div>
+</div>
 </section>
 
 <section id="discord">
     <h2>Discord</h2>
-    <figure>
+    <div class="row">
+    <div class="section__description">
+    <figure class="about__img--wrapper">
     <img src="./assets/discord.jpg" alt="Discord">
     </figure>
-    <div>
-    <p>
+    <div class="section__description--wrapper">
+    <p> <p class="section__description--para">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempora dignissimos quia sunt atque! Quasi architecto minus voluptatum quidem eligendi, est iusto ipsam in similique ad rerum sint facilis labore.
     </p>
-    <p>
+    <p> <p class="section__description--para"></p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere nostrum nisi ullam doloremque dolores quas dolorum ea aperiam assumenda. Quasi voluptas cupiditate rerum, esse officiis sapiente! Explicabo eius repudiandae dolorum.
     </p>
+    </div>
+    </div>
     </div>
 </section>
 
@@ -61,19 +75,21 @@
     <h2>Contact</h2>
     <form action="">
         <span>Email</span>
-    <input type="text" placeholder="Madalyne.freedman1@gmail.com"
-    <span>Message</span>
+    <input type="email" placeholder="Madalyne.freedman1@gmail.com">
+<span>Mesagge</span>
+<textarea type="text"placeholder="Cool website, let's stay connected"></textarea>
+    <button>Contact Us!</button>
 </form>
 </section>
 </main>
 
 <Footer>
-    <img src="./assets/FES.svg" alt="">
-    <div>
-    <a href="#about">About</a>
-    <a href="#discord">Discord</a>
-    <a href="#contact">Contact</a>
-    <a href="#courses">Courses</a>
+    <img class="footer Logo" src="./assets/FES.svg" alt="">
+    <div class="footer links">
+    <a class="footer links" href="#about">About</a>
+    <a class="footer links" href="#discord">Discord</a>
+    <a class="footer links" href="#contact">Contact</a>
+    <a class="footer links" href="#courses">Courses</a>
     </div>
     <p>Copyright Frontend Simplified</p>
 </Footer>
