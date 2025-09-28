@@ -142,6 +142,16 @@ button:active {
     margin: 0 auto;
 }
 
+.row__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-cursor{
+    cursor: not-allowed;
+}
+
 /* 
 
 HIGHLIGHTS 
@@ -241,6 +251,7 @@ FEATURES
 
 .books{
     display:flex;
+    flex-wrap: wrap;
 }
 
 .book{
@@ -284,4 +295,24 @@ FEATURES
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* 
+EXPLORE
+*/
+
+#Explore {
+    background-color: plum;
+}
+
+/*
+FOOTER
+*/
+
+footer{
+background-color: #242424;
+}
+
+.footer__logo--img{
+    width: 160px;
 }
