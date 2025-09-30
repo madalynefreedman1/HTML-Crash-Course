@@ -443,4 +443,8 @@ background-color: #242424;
     .highlight{
         width: 100%;
     }
+    .highlight:not(:last-child){
+        margin-bottom: 24px;
+       
+    }
 }
