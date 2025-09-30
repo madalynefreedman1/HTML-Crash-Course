@@ -50,7 +50,7 @@
     padding-top: 32px;
 }
 
-.nav__row{
+.nav__row{;
     display: flex;
     justify-content: space-between;
 }
@@ -89,4 +89,11 @@
 
 .Treact__link--primary:hover{
     background-color: darkblue;
+}
+
+.personal__logo{
+    font-size: 24px;
+    color: blue;
+    margin: 0 12px;
+    font-weight: bold;
 }
