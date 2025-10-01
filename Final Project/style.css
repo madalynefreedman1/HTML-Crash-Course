@@ -159,3 +159,18 @@ h1{
 .about-Treact__info--button:hover{
     background-color: darkblue;
 }
+
+/* ABOUT US*/
+
+.about__row{
+    font-size: 26px;
+}
+
+.section__title{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 24px;
+}
+h1{
+    font-size: 16px;
+}
