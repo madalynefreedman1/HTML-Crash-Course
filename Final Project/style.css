@@ -164,6 +164,8 @@ h1{
 
 .about__row{
     font-size: 26px;
+    color: blue;
+    text-decoration: none;
 }
 
 .section__title{
@@ -174,3 +176,18 @@ h1{
 h1{
     font-size: 16px;
 }
+
+
+
+/*FEATURES*/
+
+.row__features{
+    font-size: 26px;
+    color: blue;
+    text-decoration:none;
+}
+
+h2{
+    font-size: 16px;
+}
+
