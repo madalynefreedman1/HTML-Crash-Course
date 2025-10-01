@@ -67,9 +67,6 @@ a{
     margin-bottom: 24px;
 }
 
-h1{
-
-}
 
 .main{
     margin: 0 auto;
@@ -107,7 +104,6 @@ h1{
 
 .nav__link--list{
     display: flex;
-    margin-bottom: 24px;
 }
 
 .Treact__link{
@@ -127,7 +123,7 @@ h1{
     padding: 12px 16px;
     color: white;
     border-radius: 8px;
-    text-decoration: none;
+    text-underline-offset:all 300ms ease;
     transition: all 300ms ease;
 }
 
@@ -138,7 +134,7 @@ h1{
 .personal__logo{
     font-size: 24px;
     color: blue;
-    margin: 0 12px;
+    margin: 0 auto;
     font-weight: bold;
 }
 img{
@@ -148,12 +144,18 @@ img{
 
 /* ABOUT TREACT*/
 
-.section__title{
-    display:flex;
+h1.section__title{
+    font-size: 26px;
     color: purple;
+    display: flex;
 }
 
-.about-Treact__info--button{
+.left-paragraph{
+    line-height: 2.0;
+    font-size: 16px;
+    margin-top: -30px;
+}
+button.about-Treact__info--button{
     background-color: blue;
     padding: 12px 16px;
     color: white;
@@ -166,12 +168,32 @@ img{
     background-color: darkblue;
 }
 
+
+
 /* ABOUT US*/
 
+
+.nav__container{
+    padding: 0 50px;
+    align-items: left;
+}
+
+.about-Treact__info--row{
+    font-size: 36px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .about__row{
-    font-size: 26px;
+    font-size: 24px;
     color: blue;
     text-decoration: none;
+    padding: 100px;
+}
+
+.about-Treact__info--container{
+    width: 100%;
 }
 
 img{
@@ -185,6 +207,7 @@ img{
     color: black;
     margin-bottom: 24px;
 }
+
 h1{
     font-size: 16px;
     line-height: 2.0;
