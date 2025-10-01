@@ -176,7 +176,7 @@ img{
 
 img{
     width: 100%;
-    max-width:0 50px;
+    max-width:  200px;
     float: right;
 }
 
@@ -194,12 +194,15 @@ h1{
 
 /*FEATURES*/
 
+
 .row__features{
     font-size: 20px;
     color: blue;
     text-decoration:none;
     text-align: center;
+    padding: 100px;
 }
+
 
 h2{
     font-size: 26px;
