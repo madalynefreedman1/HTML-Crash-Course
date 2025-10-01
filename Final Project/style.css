@@ -13,6 +13,34 @@
     overflow-x: hidden;
 }
 
+.nav{
+    height: 100px;
+    display: flex;
+}
+
+img{
+    width: 100%;
+    max-width: 300px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav__container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .row{
     width: 100%;
     max-width: 1200px;
@@ -37,6 +65,10 @@
     font-size: 36px;
     text-align: center;
     margin-bottom: 24px;
+}
+
+h1{
+
 }
 
 .main{
@@ -97,3 +129,6 @@
     margin: 0 12px;
     font-weight: bold;
 }
+
+/* ABOUT TREACT*/
+
