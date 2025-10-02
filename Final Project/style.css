@@ -208,6 +208,19 @@ h1{
     line-height: 1.5;
 }
 
+label{
+    font-size: 18px;
+    color: blue;
+}
+
+input#email{
+    background-color: lightblue;
+    padding: 12px 16px;
+    border-radius: 8px;
+    
+}
+
+
 
 
 
