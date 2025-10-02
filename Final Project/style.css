@@ -157,6 +157,7 @@ img{
 
 .about-Us__info--container{
     width: 100%;
+    
 }
 
 h1.section__title{
@@ -166,13 +167,20 @@ h1.section__title{
     margin-bottom: 24px;
 }
 
+.project__description--para{
+    max-width: 500px;
+    line-height: 1;
+}
+
 span.text--purple{
     color: purple;
 }
 
-.project__description--para{
-    max-width: 500px;
-    line-height: 1;
+
+img{
+    width: 100%;
+    max-width:  200px;
+    float: right;
 }
 
 button.about-Us__info--button{
@@ -190,24 +198,9 @@ button.about-Us__info--button{
     background-color: darkblue;
 }
 
-img{
-    width: 100%;
-    width: 200px;
-    max-width:  200px;
-    float: right;
-}
-
 .nav__container{
     padding: 0 50px;
 }
-
-.about-Us__info--row{
-    font-size: 36px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 
 h1{
     font-size: 16px;
@@ -224,7 +217,7 @@ h1{
     color: blue;
     text-decoration:none;
     text-align: center;
-    padding: 100px;
+    padding: 200px;
 }
 
 
