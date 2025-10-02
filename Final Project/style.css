@@ -227,7 +227,7 @@ input#email{
 /*FEATURES*/
 
 .row__features{
-    font-size: 20px;
+    font-size: 24px;
     color: blue;
     text-decoration:none;
     text-align: center;
@@ -236,7 +236,7 @@ input#email{
 
 
 h2{
-    font-size: 26px;
+    font-size: 18px;
     line-height: 2.0;
 }
 
