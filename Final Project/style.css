@@ -175,7 +175,7 @@ span.text--purple{
     line-height: 1;
 }
 
-button.about-Treact__info--button{
+button.about-Us__info--button{
     background-color: blue;
     padding: 12px 16px;
     color: white;
@@ -186,7 +186,7 @@ button.about-Treact__info--button{
     margin-top: 40px;
 }
 
-.about-Treact__info--button:hover{
+.about-Us__info--button:hover{
     background-color: darkblue;
 }
 
