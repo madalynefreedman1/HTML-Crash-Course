@@ -148,6 +148,11 @@ img{
 
 /* ABOUT US*/
 
+.nav__about--row{
+    width: 100%;
+    max-width: 1200px;
+}
+
 .about-Us__info--row{
     font-size: 36px;
     width: 100%;
@@ -179,7 +184,7 @@ span.text--purple{
 
 
 img{
-    width: 100%;
+    width: 60%;
     max-width:  250px;
     float: right;
 }
@@ -226,6 +231,32 @@ input#email{
 
 /*FEATURES*/
 
+.features__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features{
+    padding: 0 24px;
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features__img{
+    border: 2px solid blue;
+    color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
 .row__features{
     font-size: 12px;
     color: blue;
@@ -242,5 +273,6 @@ h2{
 
 h3{
     font-size: 12px;
+    line-height: 2.0;
 }
 
