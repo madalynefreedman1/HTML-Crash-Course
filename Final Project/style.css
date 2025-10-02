@@ -257,6 +257,11 @@ input#email{
     margin-bottom: 24px;
 }
 
+.features__para{
+    display: flex;
+    flex-direction: column;
+}
+
 .row__features{
     font-size: 12px;
     color: blue;
