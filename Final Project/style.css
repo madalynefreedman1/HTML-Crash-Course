@@ -148,6 +148,17 @@ img{
 
 /* ABOUT US*/
 
+.about-Us__info--row{
+    font-size: 36px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-Us__info--container{
+    width: 100%;
+}
+
 h1.section__title{
     font-size: 26px;
     color: black;
@@ -157,6 +168,11 @@ h1.section__title{
 
 span.text--purple{
     color: purple;
+}
+
+.project__description--para{
+    max-width: 500px;
+    line-height: 1;
 }
 
 button.about-Treact__info--button{
@@ -190,22 +206,6 @@ img{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.about__row{
-    font-size: 24px;
-    color: blue;
-    text-decoration: none;
-    padding: 100px;
-}
-
-.about-Us__info--container{
-    width: 100%;
-}
-
-.project__description--para{
-    max-width: 500px;
-    line-height: 1;
 }
 
 
