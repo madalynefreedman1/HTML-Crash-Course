@@ -235,6 +235,7 @@ h1.section__title{
     font-size: 16px;
     max-width: 500px;
     line-height: 1.5;
+    color: grey;
 }
 
 span.text--purple{
@@ -325,14 +326,15 @@ input#email{
     display: inline-flex;
     border: 2px solid purple;
     color: purple;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     font-size: 32px;
     margin-bottom: 24px;
+    margin-right: 180px;
 }
 
 
@@ -344,6 +346,7 @@ input#email{
 .features__para{
     display: flex;
     flex-direction: column;
+    color: grey;
     font-size: 12px;
 }
 
@@ -364,6 +367,8 @@ h2{
 h3{
     font-size: 12px;
     line-height: 2.0;
+    margin-bottom: 40px;
+    color: grey;
 }
 
 
