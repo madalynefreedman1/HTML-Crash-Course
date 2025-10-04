@@ -316,6 +316,10 @@ input#email{
     flex-direction: column;
 }
 
+.container__features{
+    padding: 80px 0;
+}
+
 
 .features__img{
     border: 2px solid blue;
