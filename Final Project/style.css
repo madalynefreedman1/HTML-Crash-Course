@@ -216,6 +216,8 @@ img{
 }
 
 .about-Us__info--container{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 1200px;
     padding: 0 24px;
@@ -286,20 +288,17 @@ input#email{
 }
 
 .customer__title{
+    font-size: 10px;
     color:gray;
     margin-top: 10px;
 }
 
-img{
+.customer__img{
+    width: 40%;
     float: left;
+    margin-top: 10px;
+    
 }
-
-
-
-
-
-
-
 
 
 /*FEATURES*/
