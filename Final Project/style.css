@@ -243,7 +243,9 @@ span.text--purple{
 .about__img{
     width: 60%;
     max-width: 200px;
+    height: 200px;
     float: right;
+
     
 }
 
