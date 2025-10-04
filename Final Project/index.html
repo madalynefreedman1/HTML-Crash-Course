@@ -20,7 +20,7 @@
             <div class="nav__logo">
     
             </div>
-            <div class="Treact__links">
+            <ul class="Treact__links">
                 <a  class="Treact__link">About</a>
                 <a class="Treact__link">Blog</a>
                 <a class="Treact__link">Pricing</a>
@@ -29,6 +29,34 @@
                 <a class="Treact__link Treact__link--primary">Sign Up</a>
             </div>
             </ul>
+            <button class="btn__menu" onclick="OpenMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#about-Us" class="menu__link" onclick="closeMenu()">Blog</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Pricing</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Contact Us</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+                    </li>
+                    <li class="menu__link">
+                        <a href="#" class="menu__link" onclick="closeMenu()">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <section>
             <header>
@@ -148,6 +176,7 @@
             <div class="container__quality">
             <div class="row__quality">
                 <!---->Quality Work<!---->
+                <h5>Designed and Developed by<span class="text--purple">Professionals</span></h5>
             </div>
             </div>
 
