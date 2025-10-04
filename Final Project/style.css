@@ -240,10 +240,11 @@ span.text--purple{
 }
 
 
-img{
+.about__img{
     width: 60%;
-    max-width:  250px;
+    max-width: 200px;
     float: right;
+    
 }
 
 button.about-Us__info--button{
@@ -287,6 +288,11 @@ input#email{
     margin-top: 10px;
 }
 
+img{
+    float: left;
+}
+
+
 
 
 
@@ -308,6 +314,7 @@ input#email{
     align-items: center;
     flex-direction: column;
 }
+
 
 .features__img{
     border: 2px solid blue;
@@ -352,12 +359,41 @@ h3{
     line-height: 2.0;
 }
 
-.features__para{
-    font-size: 12px;
-}
-
 
 /* Quality Work */
 
+.quality__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.container__quality{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quality__subtitle{
+    font-size: 32px;
+}
+
+.row__quality{
+    width: 100%;
+    max-width: 1200px;
+    font-size: 18px;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.quality{
+    font-size: 12px;
+    width: 100%;
+}
+
+.quality__para{
+    width: 100%;
+    max-width: 500px;
+    line-height: 1.5;
+    color: grey;
+}
 
