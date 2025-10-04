@@ -322,17 +322,19 @@ input#email{
 
 
 .features__img{
-    border: 2px solid blue;
-    color: blue;
+    display: inline-flex;
+    border: 2px solid purple;
+    color: purple;
     width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 50%;
     font-size: 32px;
     margin-bottom: 24px;
 }
+
 
 .features__subtitle{
     font-size: 18px;
@@ -347,7 +349,7 @@ input#email{
 
 .row__features{
     font-size: 16px;
-    color: blue;
+    color: purple;
     text-decoration:none;
     text-align: center;
     padding: 150px;
@@ -380,10 +382,12 @@ h3{
 
 .quality__subtitle{
     font-size: 32px;
+    width: 500px;
 }
 
 .row__quality{
     width: 100%;
+    color: purple;
     max-width: 1200px;
     font-size: 18px;
     padding: 100px;
