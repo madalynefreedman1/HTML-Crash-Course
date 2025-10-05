@@ -363,9 +363,12 @@ h3{
 }
 
 .container__quality{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+     border-radius: 4px;
+   border: 1px solid rgb(229, 231,235);
+   position: relative;
+   margin: 0 56px;
+   z-index: 2;
+   display: flex;
 }
 
 .quality__subtitle{
@@ -414,21 +417,51 @@ button.btn:hover{
     background-color: purple;
 }
 
-.qaulity__img{
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    height: 100px;
-    padding: 50px;
+img.qaulity__img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    z-index: 1;
 }
 
-.grid__container{
-    display: grid;
-    width: 100px;
-    height: 100px;
+img{
+    width: 100%;
+   
+}
+
+.figure.qaulity__img{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
+svg:not(:root){
+    overflow-clip-margin: content-box;
+    overflow: hidden;
 }
 
 svg.quality__grid{
-    width: 100%;
-    color: rgb(63, 63, 158);
+   transform: translateX(50%)
+   translateY(50%) scaleX(1)
+   scaleY(1);
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+   fill: rgb(100, 21, 255)
+   var(--tw-text-opacity);
+   z-index: 0;
+   display: block;
 }
+
+.path{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
