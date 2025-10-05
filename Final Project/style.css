@@ -75,10 +75,8 @@ a{
 /* NAVIGATION BAR*/
 
 .nav{
-    height: 220px;
     display: flex;
     padding-top: 32px;
-    padding: 0 50px;
 }
 
 .nav__container{
@@ -118,15 +116,19 @@ ul{
 }
 
 .Treact__links{
+    width: 100%;
+    height: 100%;
     display: flex;
-    margin: left;
-    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
     color: black;
     font-size: 16px;
     font-weight: bold;
     transition: all 300ms ease;
-    
+}
 
+.Treact__link{
+    
 }
 
 .Treact__link:hover{
@@ -383,5 +385,9 @@ button.btn{
     text-decoration: none;
     transition: all 300ms ease;
     margin-top: 40px;
+}
+
+button.btn:hover{
+    background-color: purple;
 }
 
