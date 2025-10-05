@@ -128,7 +128,13 @@ ul{
 }
 
 .Treact__link{
-    
+    color: #1a202c;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin:8px 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
 }
 
 .Treact__link:hover{
@@ -168,18 +174,19 @@ img{
     margin-top: 50px;
 }
 
+
+
 .nav__about--row{
-    width: 100%;
-    max-width: 1200px;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
 .about-Us__info--row{
-    font-size: 36px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .about-Us__info--container{
@@ -270,6 +277,10 @@ input#email{
 
 /*FEATURES*/
 
+#features{
+    position: relative;
+}
+
 .features__wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -316,6 +327,12 @@ input#email{
     font-size: 12px;
 }
 
+#features .row__features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .row__features{
     font-size: 16px;
     color: purple;
@@ -354,6 +371,12 @@ h3{
 .quality__subtitle{
     font-size: 32px;
     width: 500px;
+}
+
+#quality .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .row__quality{
