@@ -424,9 +424,6 @@ img.qaulity--img{
     box-sizing: border-box;
     color: black;
     z-index: 1;
-    overflow: 
-    overflow-X: 1
-    overflow-Y 1;
 }
 
 .figure.qaulity__img{
@@ -459,4 +456,3 @@ svg.quality__grid{
     padding:0;
     box-sizing: border-box;
 }
-
