@@ -84,7 +84,7 @@ a{
 .nav__container{
     width: 100%;
     max-width: 1200px;
-    padding: 0 50px;
+    padding: 0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,23 +106,26 @@ a{
 
 .nav__link--list{
     display: flex;
+    padding: 15px 0;
 }
 
 
 ul{
     padding: 15px 0;
     float: right;
+    gap: 15px;
     
 }
 
 .Treact__links{
+    display: flex;
     margin: left;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     transition: all 300ms ease;
-     padding: 8px;
+    
 
 }
 
@@ -132,7 +135,7 @@ ul{
 
 .Treact__link--primary{
     background-color: rgba(172, 69, 172);
-    padding: 12px 16px;
+    padding: 12px 12px;
     color: white;
     border:2px solid rgba(172, 69, 172);
     border-radius: 8px;
@@ -159,10 +162,15 @@ img{
 
 /* ABOUT US*/
 
+.landing{
+    margin-top: 50px;
+}
+
 .nav__about--row{
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin-top: 20px;
+    
 }
 
 .about-Us__info--row{
@@ -178,6 +186,7 @@ img{
     width: 100%;
     max-width: 1200px;
     padding: 0 24px;
+    margin-top: 80px;
 
 }
 
@@ -205,8 +214,6 @@ span.text--purple{
     max-width: 200px;
     height: 200px;
     float: right;
-
-    
 }
 
 button.about-Us__info--button{
@@ -358,7 +365,7 @@ h3{
 
 .quality{
     font-size: 12px;
-    width: 100%;
+    
 }
 
 .quality__para{
@@ -366,5 +373,16 @@ h3{
     max-width: 500px;
     line-height: 1.5;
     color: grey;
+}
+
+button.Qaulity--primary{
+     background-color: rgb(172, 69, 172);
+    padding: 12px 16px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 300ms ease;
+    float: right;
+    margin-top: 40px;
 }
 
