@@ -417,17 +417,16 @@ button.btn:hover{
     background-color: purple;
 }
 
-img.qaulity__img{
+img.qaulity--img{
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: black;
     z-index: 1;
-}
-
-img{
-    width: 100%;
-   
+    overflow: 
+    overflow-X: 1
+    overflow-Y 1;
 }
 
 .figure.qaulity__img{
@@ -439,10 +438,6 @@ img{
     unicode-bidi: isolate;
 }
 
-svg:not(:root){
-    overflow-clip-margin: content-box;
-    overflow: hidden;
-}
 
 svg.quality__grid{
    transform: translateX(-100%)
