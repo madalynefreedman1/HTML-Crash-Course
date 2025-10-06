@@ -487,6 +487,13 @@ svg.quality__grid{
     margin-top: 32px;
 }
 
+.quality__img{
+    width: 200px;
+    height:400px;
+    display: flex;
+    float: right;
+}
+
 .step__number{
     color:#cbd5e0;
     font-size: 36px;
