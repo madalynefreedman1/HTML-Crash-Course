@@ -464,7 +464,25 @@ svg.quality__grid{
     flex-direction: column;
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
+    padding: 96px 0;
     margin-top: 80px;
 }
 
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.steps__img--wrapper{
+    display: flex;
+    position: relative;
+}
+
+h2.section__title{
+    
+}
+    
