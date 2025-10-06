@@ -479,15 +479,44 @@ svg.quality__grid{
 }
 
 .section__tag{
-    
+    width:100%;
+}
+
+.step{
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__number{
+    color:#cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
 }
 
 .steps__description{
+    display: flex;
     padding: 32px 0;
     padding-left: 64px;
 }
 
-h2.section__title{
+.step__title{
+    font-weight: 600;
+    font-size: 20px;
+    color: purple;
+    line-height: 1;
+    margin-top: -58px;
+}
+
+p.step__para{
+    font-size: 14px;
+    color:#718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+h2.sections__title{
     font-size: 32px;
     line-height: 2.0;
 }
