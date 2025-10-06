@@ -470,12 +470,14 @@ svg.quality__grid{
 
 .steps__row{
     display: flex;
+    font-size: 32px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
 }
+
 
 .steps__img--wrapper{
     display: flex;
