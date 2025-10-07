@@ -499,7 +499,6 @@ svg.quality__grid{
 .steps__img{
     width: 200px;
     height:400px;
-    display: flex;
     float: right;
     margin-top: 200px;
 }
@@ -514,7 +513,7 @@ svg.quality__grid{
 .steps__description{
     display: flex;
     padding: 32px 0;
-    padding-left: 64px;
+    padding-left: 60px;
 }
 
 .step__title{
