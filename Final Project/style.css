@@ -540,3 +540,26 @@ h2.sections__title{
     line-height: 2.0;
 }
     
+
+/* VALUES */
+
+.values__container{
+    padding: 96px 0;
+}
+
+.values__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.values__description{
+    width: 50%;
+    padding: 32px 64px 32px 0;
+     font-size: 18px;
+    color: purple;
+    margin-bottom: 8px;
+}
