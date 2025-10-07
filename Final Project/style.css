@@ -505,20 +505,22 @@ svg.quality__grid{
 
 .step__number{
     color:#cbd5e0;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 1;
 }
 
 .steps__description{
+    font-size: 18px;
     display: flex;
     padding: 32px 0;
     padding-left: 60px;
+    color: purple;
 }
 
 .step__title{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     color: purple;
     line-height: 1;
     margin-top: -58px;
