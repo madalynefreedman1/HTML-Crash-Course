@@ -487,11 +487,21 @@ svg.quality__grid{
     margin-top: 32px;
 }
 
+.step__img--wrapper{
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #243e63;
+}
+
 .steps__img{
     width: 200px;
     height:400px;
     display: flex;
     float: right;
+    margin-top: 200px;
 }
 
 .step__number{
