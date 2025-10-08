@@ -565,8 +565,10 @@ h2.sections__title{
 }
 
 .sections__title{
+    width: 100%;
+    font-size: 36px;
     margin-top: 16px;
-    line-height: 1.25;
+    line-height: 1.625;
 }
 
 .values__para{
