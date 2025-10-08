@@ -610,5 +610,12 @@ h2.sections__title{
     justify-content: center;
     align-items: center;
     width: 36px;
-    min-height: 36px;
+    min-height: 36px; 
+}
+
+.value__para{
+    margin-top: 16px;
+    line-height: 1.625;
+    color:#718096;
+    font-family: Interstate, sans-serif;
 }
