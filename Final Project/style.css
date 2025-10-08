@@ -577,3 +577,15 @@ h2.sections__title{
     color: #7c8ba1;
     line-height: 1.625;
 }
+
+.values__list{
+    max-width: 20rem;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.value{
+    margin-top: 32px;
+    margin-right: 32px;
+}
