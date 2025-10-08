@@ -589,3 +589,26 @@ h2.sections__title{
     margin-top: 32px;
     margin-right: 32px;
 }
+
+.value__title{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #243e63;
+}
+
+.value:nth-child(1)
+.value__img--wrapper{
+   background-color: #9ae6b4;
+}
+
+.value__img--wrapper{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    min-height: 36px;
+}
