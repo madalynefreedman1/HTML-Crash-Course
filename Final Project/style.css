@@ -653,3 +653,10 @@ h2.sections__title{
 .pricing__plans{
     font-size: 18px;
 }
+
+.pricing__card--features{
+    margin-bottom: 24px;
+    color: grey;
+    font-size: 14px;
+    float: left;
+}
