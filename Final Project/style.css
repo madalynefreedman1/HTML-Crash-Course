@@ -632,6 +632,10 @@ h2.sections__title{
     margin-top: 700px;
 }
 
+.value__btn--primarybtn:hover{
+    background-color: purple;
+}
+
 .values__bg--img{
   width: 400px;
   max-width: 1200px;
