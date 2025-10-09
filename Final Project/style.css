@@ -621,3 +621,18 @@ h2.sections__title{
     color:#718096;
     font-family: Interstate, sans-serif;
 }
+
+.value__btn--primarybtn{
+    background-color: rgb(172, 69, 172);
+    padding: 16px 24px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 300ms ease;
+    margin-top: 700px;
+}
+
+.values__bg--img{
+  width: 400px;
+  max-width: 1200px;
+}
