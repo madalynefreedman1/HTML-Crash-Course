@@ -640,3 +640,16 @@ h2.sections__title{
   width: 400px;
   max-width: 1200px;
 }
+
+/* PRICING */
+
+.pricing__card--header{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: purple;
+}
+
+.pricing__plans{
+    font-size: 18px;
+}
