@@ -669,9 +669,23 @@ h2.sections__title{
     color: purple;
 }
 
-.pricing__plans{
+.personal__plans{
     font-size: 18px;
     background-color: rgb(129,230,217);
+    border-radius: 60px;
+}
+
+.Business__plans{
+    font-size: 18px;
+    background-color: plum;
+    border-radius: 60px;
+}
+
+.Enterprise__plans{
+    font-size: 18px;
+    background-color: lightblue;
+    border-radius: 60px;
+
 }
 
 .pricing__card--features{
@@ -771,8 +785,7 @@ div.plan__middle{
    padding: 0.75rem 2rem;
    font-weight: 700;
    transition: all 300ms ease;
-   width: 100%;
-   border-radius: 9999px;
+   border-radius: 500px;
    padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 0.875rem;
