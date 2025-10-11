@@ -643,6 +643,25 @@ h2.sections__title{
 
 /* PRICING */
 
+.pricing__description{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sections__title{
+    font-size: 32px;
+    line-height: 2.0;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.pricing__para{
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 .pricing__card--header{
     font-size: 24px;
     font-weight: 700;
@@ -699,8 +718,15 @@ h2.sections__title{
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
 }
- 
+
+.plan:nth-child(2)
 .plan__middle{
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: purple;
+}
+ 
+div.plan__middle{
     margin-left: -2rem;
     margin-right: -2rem;
     display: flex;
