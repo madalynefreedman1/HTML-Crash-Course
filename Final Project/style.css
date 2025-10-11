@@ -736,6 +736,7 @@ div.plan__middle{
     flex-basis: 0%;
     flex-direction: column;
     padding: 2rem;
+    line-height: 2.5;
 }
 
 .plan__bottom{
