@@ -781,3 +781,34 @@ div.plan__middle{
     cursor: pointer;
 }
 
+/*Testimonials*/
+
+.testimonials__description{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.testimonials__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.testimonials__row{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    width-calc: (100%-40%);
+    padding-left: 60px;
+   
+    
+}
+
+.testimonials__para{
+    font-size: 14px;
+    color: grey;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    float: right;
+}
