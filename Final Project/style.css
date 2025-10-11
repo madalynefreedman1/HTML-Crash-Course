@@ -690,6 +690,7 @@ h2.sections__title{
     box-sizing: border-box;
     color: #243e63;
     unicode-bidi: isolate;
+    text-align: center;
 }
 
 .plan:nth-child(1)
@@ -723,3 +724,33 @@ h2.sections__title{
     unicode-bidi: isolate;
 }
         
+ .plan:nth-child(1)
+.plan__stripe,
+.plan:nth-child(1) button.plan__btn--secondarybtn{
+   color:#f7fafc;
+   background-image: linear-gradient(115deg, rgb(56, 178, 172), 0%,rgb(129,230,217),100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.plan__btn--secondarybtn{
+   padding: 0.75rem 2rem;
+   font-weight: 700;
+   transition: all 300ms ease;
+   width: 100%;
+   border-radius: 9999px;
+   padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+}
+
