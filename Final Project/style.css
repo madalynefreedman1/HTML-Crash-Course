@@ -710,4 +710,16 @@ h2.sections__title{
     flex-direction: column;
     padding: 2rem;
 }
+
+.plan__bottom{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    box-sizing: border-box;
+    color: #243e63;
+    display: block;
+    unicode-bidi: isolate;
+}
         
