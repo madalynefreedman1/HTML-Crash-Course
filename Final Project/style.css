@@ -813,7 +813,7 @@ div.plan__middle{
 .testimonials__row{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 1000px;
     width-calc: (100%-40%);
     padding-left: 60px;
    
@@ -821,9 +821,10 @@ div.plan__middle{
 }
 
 .testimonials__para{
+    width: 100%;
     font-size: 14px;
     color: grey;
     line-height: 1.5;
     margin-bottom: 16px;
-    float: right;
 }
+
