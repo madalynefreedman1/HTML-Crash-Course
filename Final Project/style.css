@@ -671,6 +671,7 @@ h2.sections__title{
 
 .pricing__plans{
     font-size: 18px;
+    background-color: rgb(129,230,217);
 }
 
 .pricing__card--features{
@@ -715,8 +716,8 @@ h2.sections__title{
 .plan:nth-child(1)
 .plan__middle,
 .plan:nth-child(3){
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+    border-top: 2px solid rgb(78, 119, 185);
+    border-bottom: 2px solid rgb(94, 135, 215);
 }
 
 .plan:nth-child(2)
@@ -751,7 +752,7 @@ div.plan__middle{
     unicode-bidi: isolate;
 }
         
- .plan:nth-child(1)
+
 .plan__stripe,
 .plan:nth-child(1) button.plan__btn--secondarybtn{
    color:#f7fafc;
@@ -786,6 +787,7 @@ div.plan__middle{
 .testimonials__description{
     text-align: center;
     margin-bottom: 24px;
+    color: purple;
 }
 
 .testimonials__img{
