@@ -798,13 +798,20 @@ div.plan__middle{
 /*Testimonials*/
 
 .testimonials__description{
-    text-align: center;
-    margin-bottom: 24px;
+    text-align: left;
+    margin-top: 24px;
     color: purple;
 }
 
+.sections__title{
+    font-size: 32px;
+    line-height: 2.0;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
 .testimonials__img{
-    width: 100px;
+    width: 500px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 16px;
@@ -821,10 +828,24 @@ div.plan__middle{
 }
 
 .testimonials__para{
-    width: 100%;
-    font-size: 14px;
+    width: 50%;
+    font-weight: 500;
     color: grey;
-    line-height: 1.5;
-    margin-bottom: 16px;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+
+.testimonials__img{
+    width: 200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
 }
 
