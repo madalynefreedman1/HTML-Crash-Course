@@ -841,6 +841,19 @@ div.plan__middle{
 
 }
 
+.testimonial__para{
+    font-size: 14px;
+    color: grey;
+    margin-top: -28px;
+    line-height: 1.5;
+}
+
+.testimonial__title{
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+}
+
 .testimonials__img{
     width: 200px;
     height:200px;
