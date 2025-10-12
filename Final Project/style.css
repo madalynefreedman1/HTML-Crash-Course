@@ -846,6 +846,11 @@ div.plan__middle{
     height:200px;
     display: block;
     margin-left: auto;
-    margin-top: 20px;
+    
+}
+
+.testimonial__ratings{
+    color: #ecc94b;
+    
 }
 
