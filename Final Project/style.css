@@ -919,9 +919,37 @@ div.plan__middle{
 }
 
 .start__container{
-    
+    padding: 96px 0;
+    width: 100%;
+    background-color: rgb(100, 21, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .start__row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.start__title{
+    font-size: 32px;
+    color: white;
+    line-height: 2.0;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.start__btn--primarybtn{
+    background-color: white;
+    padding: 16px 24px;
+    color: purple;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 300ms ease;
+    margin-top: 40px;
+    margin-right: 32px;
 }
