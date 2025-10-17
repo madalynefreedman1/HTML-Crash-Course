@@ -970,3 +970,18 @@ div.plan__middle{
 .start__btn--secondarybtn:hover{
     background-color: rgb(56, 178, 172);
 }
+
+/* FOOTER */
+
+.footer__row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__columns{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
