@@ -1004,8 +1004,9 @@ div.plan__middle{
     margin-top: 12px;
     line-height: 1.5;
     font-weight: 500;
-    position: relative;
     cursor: pointer;
+    display: inline;
+    margin-right: 20px;
 }
 
 .footer__column--title{
