@@ -984,12 +984,6 @@ div.plan__middle{
     margin: 0 auto;
 }
 
-.footer__columns{
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
 .footer__column{
     margin-top: 48px;
@@ -997,9 +991,22 @@ div.plan__middle{
     flex-direction: column;
     align-items: flex-start;
     z-index: 2;
+
 }
 
+.footer__link.plan:nth-child(2){
+    margin-top: 24px;
+}
 
+.footer__link{
+    color:black;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
 
 .footer__column--title{
     color: blue;
