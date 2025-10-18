@@ -978,21 +978,22 @@ div.plan__middle{
     padding: 96px 0;
 }
 
-.footer__row{
+.footer__lists{
+    display: flex;
+    flex-direction: column;
+}
+
+.row.footer__row{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 96px 0;
+    padding: 96px
 }
-
-
-.footer__column{
-    margin-top: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    z-index: 2;
-    display: inline;
+.footer__columns{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #243e63
 
 }
 
