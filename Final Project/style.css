@@ -985,3 +985,12 @@ div.plan__middle{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.footer__column{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+
+}
