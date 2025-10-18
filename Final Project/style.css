@@ -974,6 +974,7 @@ div.plan__middle{
 /* FOOTER */
 
 .footer{
+    display: flex;
     background-color: purple;
     padding: 96px 0;
 }
@@ -983,10 +984,10 @@ div.plan__middle{
     flex-direction: column;
 }
 
-.row.footer__row{
+.footer__row{
+    display: flex;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
     padding: 96px
 }
 .footer__columns{
@@ -994,22 +995,15 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 color: #243e63
-
-}
-
-.footer__link.plan:nth-child(2){
-    margin-top: 24px;
 }
 
 .footer__link{
     color:black;
     font-size: 14px;
     margin-top: 12px;
-    line-height: 1.5;
     font-weight: 500;
     cursor: pointer;
-    display: inline;
-    margin-right: 20px;
+
 }
 
 .footer__column--title{
@@ -1018,6 +1012,5 @@ color: #243e63
     margin-top: 12px;
     line-height: 1.5;
     font-weight: 500;
-    position: relative;
     cursor: pointer;
 }
