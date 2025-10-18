@@ -973,6 +973,11 @@ div.plan__middle{
 
 /* FOOTER */
 
+.footer{
+    background-color: purple;
+    padding: 96px 0;
+}
+
 .footer__row{
     width: 100%;
     max-width: 1200px;
@@ -996,6 +1001,12 @@ div.plan__middle{
 
 
 
-.footer__link{
-
+.footer__column--title{
+    color: blue;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
 }
