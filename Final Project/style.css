@@ -989,12 +989,26 @@ div.plan__middle{
     width: 100%;
     max-width: 1200px;
     padding: 96px
+    unicode-bidi: isolate;
+    display: block;
 }
 .footer__columns{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-color: #243e63
+    margin-bottom: -48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+.footer__column{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    unicode-bidi: isolate;
 }
 
 .footer__link{
