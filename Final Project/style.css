@@ -979,11 +979,6 @@ div.plan__middle{
     padding: 96px 0;
 }
 
-.footer__lists{
-    display: flex;
-    flex-direction: column;
-}
-
 .footer__row{
     width: 100%;
     max-width: 1280px;
@@ -1006,6 +1001,20 @@ div.plan__middle{
 
 .footer__column--title{
   font-weight: 700;
-  color:black;
+  color:blue;
   line-height: 1.5;
+}
+
+.footer__link:nth-child(2){
+    margin-top: 24px;
+}
+
+.footer__link{
+    color: black;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
 }
