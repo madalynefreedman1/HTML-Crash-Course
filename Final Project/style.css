@@ -985,10 +985,13 @@ div.plan__middle{
     margin: 0 auto;
 }
 .footer__columns{
-    margin-top: 48px;
+    margin-top: -48px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .footer__column{
@@ -1003,6 +1006,9 @@ div.plan__middle{
   font-weight: 700;
   color:blue;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .footer__link:nth-child(2){
@@ -1011,6 +1017,7 @@ div.plan__middle{
 
 .footer__link{
     color: black;
+    display: flex;
     font-size: 14px;
     margin-top: 12px;
     line-height: 1.5;
