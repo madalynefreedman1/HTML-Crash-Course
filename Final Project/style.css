@@ -975,14 +975,19 @@ div.plan__middle{
 
 .footer{
     display: flex;
-    background-color: purple;
     padding: 96px 0;
+}
+
+.footer__container{
+    padding: 0 50px;
+    background-color: plum;
 }
 
 .footer__row{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    display: block;
 }
 .footer__columns{
     display: flex;
@@ -990,8 +995,11 @@ div.plan__middle{
 }
 
 .footer__column{
-   width: 25%;
-   padding: 24px;
+   margin-top: 48px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   z-index: 2;
 }
 
 .footer__column--title{
@@ -1003,17 +1011,12 @@ div.plan__middle{
   box-sizing: border-box;
 }
 
-.footer__link:nth-child(2){
-    margin-top: 24px;
-}
-
 .footer__link{
-    color: black;
-    display: flex;
-    font-size: 14px;
-    margin-top: 12px;
-    line-height: 1.5;
-    font-weight: 500;
-    position: relative;
-    cursor: pointer;
+    display: inline;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+   
+   
