@@ -1034,6 +1034,7 @@ div.plan__middle{
 
 .footer__bottom{
     width: 100%;
+    max-width: 500px;
     background-color: rgb(116, 44, 255);
     height: 150px;
 }
