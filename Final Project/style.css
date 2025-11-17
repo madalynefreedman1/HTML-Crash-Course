@@ -208,6 +208,7 @@ h1.header__title{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 16px;
 }
 
 input.header__email--input{
