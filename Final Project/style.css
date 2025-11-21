@@ -314,6 +314,11 @@ img.header__img{
     box-sizing: border-box;
 }
 
+.features__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .feature{
     width:25%;
     padding: 24px;
